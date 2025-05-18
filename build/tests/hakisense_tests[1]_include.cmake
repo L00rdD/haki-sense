@@ -1,0 +1,5 @@
+if(EXISTS "/Users/davidlinhares/dev/d./haki-sense/build/tests/hakisense_tests[1]_tests.cmake")
+  include("/Users/davidlinhares/dev/d./haki-sense/build/tests/hakisense_tests[1]_tests.cmake")
+else()
+  add_test(hakisense_tests_NOT_BUILT hakisense_tests_NOT_BUILT)
+endif()

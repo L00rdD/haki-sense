@@ -1,0 +1,5 @@
+if(EXISTS "/Users/davidlinhares/dev/d./haki-sense/build/tests/domain/usecases/camera/initialize_camera_test[1]_tests.cmake")
+  include("/Users/davidlinhares/dev/d./haki-sense/build/tests/domain/usecases/camera/initialize_camera_test[1]_tests.cmake")
+else()
+  add_test(initialize_camera_test_NOT_BUILT initialize_camera_test_NOT_BUILT)
+endif()
